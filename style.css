@@ -74,3 +74,31 @@ body{
     height: 32px;
     margin-right: 8px;
 }
+
+@media only screen and (max-width: 768px) {
+    .blog-card{
+        width: 327px;
+        height: 501px;
+    }
+    .card-image{
+        margin-top: 10px;
+    }
+    .card-image img{
+        width: 279px;
+        height: 200px;
+    }
+    .card-header{
+        font-size: 12px;
+        width: 73px;
+        height: 26px;
+    }
+    .sub-heading{
+        font-size: 12px;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    .card-description{
+        font-size: 14px;
+    }
+}
